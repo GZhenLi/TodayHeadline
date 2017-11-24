@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThumbCollectionViewCell" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="132" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="132" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F6J-PO-B0O">
+                        <rect key="frame" x="0.0" y="0.0" width="132" height="116"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10图" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ny-35-5gV">
+                        <rect key="frame" x="92" y="95" width="35" height="16"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="DL6-Zm-nx3"/>
+                            <constraint firstAttribute="height" constant="16" id="GGs-Vo-lT9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9ny-35-5gV" secondAttribute="trailing" constant="5" id="57c-jZ-UTd"/>
+                <constraint firstAttribute="trailing" secondItem="F6J-PO-B0O" secondAttribute="trailing" id="H6b-2i-f8q"/>
+                <constraint firstAttribute="bottom" secondItem="9ny-35-5gV" secondAttribute="bottom" constant="5" id="Ne4-MP-foZ"/>
+                <constraint firstItem="F6J-PO-B0O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TaC-Jr-5PF"/>
+                <constraint firstAttribute="bottom" secondItem="F6J-PO-B0O" secondAttribute="bottom" id="gA2-03-CLQ"/>
+                <constraint firstItem="F6J-PO-B0O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yB7-17-ilJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="132" height="116"/>
+            <connections>
+                <outlet property="galleryCountLabel" destination="9ny-35-5gV" id="oSO-Ip-AwY"/>
+                <outlet property="thumbImageView" destination="F6J-PO-B0O" id="oPE-kN-WEO"/>
+            </connections>
+            <point key="canvasLocation" x="42" y="-13"/>
+        </collectionViewCell>
+    </objects>
+</document>

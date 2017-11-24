@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (4.5.1)
+  - BMPlayer (0.9.1):
+    - BMPlayer/Full (= 0.9.1)
+  - BMPlayer/Core (0.9.1)
+  - BMPlayer/Full (0.9.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 3.5)
+    - SnapKit (~> 3.2)
+  - HandyJSON (1.8.0)
+  - IBAnimatable (5.0.0)
+  - Kingfisher (3.10.4)
+  - LeanCloud (10.1.0):
+    - LeanCloud/Storage (= 10.1.0)
+  - LeanCloud/Storage (10.1.0):
+    - Alamofire (~> 4.5)
+  - MJRefresh (3.1.14.1)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SnapKit (3.2.0)
+  - SVProgressHUD (2.1.2)
+  - SwiftTheme (0.4.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.0)
+  - BMPlayer
+  - HandyJSON
+  - IBAnimatable
+  - Kingfisher (~> 3.10.4)
+  - LeanCloud (~> 10.1.0)
+  - MJRefresh
+  - RxCocoa (~> 3.6.1)
+  - RxSwift (~> 3.6.1)
+  - SnapKit (~> 3.2.0)
+  - SVProgressHUD (~> 2.1.2)
+  - SwiftTheme
+  - SwiftyJSON (~> 3.1.4)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  BMPlayer: e68ba160d9c05ea5fffc31d37448aa02433418ab
+  HandyJSON: edaaa3278bf4c4c96d6f7382b80d6b91c88d3bf5
+  IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  LeanCloud: 2a6ac9da4fcf4b6b26f519d05a31998ddc59223a
+  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftTheme: 548eff28a606d0975e04b2e708b879d7eea660f6
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 861dbe20477ed21beb5116de77240a78ceb57b9a
+
+COCOAPODS: 1.2.1
